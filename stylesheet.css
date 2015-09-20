@@ -1,0 +1,259 @@
+body {
+	font-style: normal;
+	font-weight: bold;
+	font: bold 14px Arial;
+	color: #FFFFF;
+}
+/** common header display projname **/
+.smsheadertable {
+	border-collapse: separate;
+	table-layout: fixed; 
+}
+/**smstable for other table of applications**/
+.smstable{
+	border-collapse: collapse;
+	table-layout: fixed; 
+}
+/**smstableRoot for root of all smstable**/
+.smstableRoot{
+	border-collapse: collapse;
+	table-layout: auto; 
+
+
+}
+/** for popup of sms **/
+.smspopuptable{
+	border-collapse: collapse;
+}
+
+/**To display title **/
+.smstitlefont {
+	font: bold 24px Arial;
+	font-weight: bold;
+}
+
+/**To display left panel title **/
+.smsleftpanelfont {
+	font: bold 14px Arial;
+	font-weight: bold;
+}
+
+/**To display title page heading **/
+.smstilteheader {
+	background: #E1E1E1;
+}
+
+/**To display footer  **/
+.smsfooter {
+	font: 14px Arial;
+	border: thin rgb(204, 204, 204);
+	background: #FFFFF;
+}
+
+/**To display left panel   **/
+.smsleftpanel {
+	cursor: hand;
+	cursor: pointer;
+	border: 0px solid gray;
+	background: #E1E1E1;
+	border-bottom: 1px solid #C1DAD7;
+}
+/**To display table header Rows   **/
+.smstdRowHeader {
+	font: 14px Arial;
+	background-color: #FFFFF;
+	border-right: 1px solid;
+	border-bottom: 1px solid;
+	border-top: 1px solid;
+	border-left: 1px solid;
+	border: 1px solid #463E41;
+
+}
+
+/**To display table Rows   **/
+.smstdRow {
+	font: 14px Arial;
+	background-color: #FFFFF;
+	border-right: 1px solid;
+	border-bottom: 1px solid;
+	border-top: 1px solid;
+	border-left: 1px solid;
+	border: 1px solid #463E41;
+	word-wrap: break-word;
+}
+/**To display table errors   **/
+.smstdError {
+	font: 14px Arial;
+	color:red;
+	background-color: #FFFFF;
+	border-right: 1px solid;
+	border-bottom: 1px solid;
+	border-top: 1px solid;
+	border-left: 1px solid;
+	border: 1px solid #463E41;
+	word-wrap: break-word;
+}
+/**To display table Header   **/
+.smstrHeader {
+	background-color: #736F6E;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 16px;
+	text-align: center;
+	text-transform: capitalize;
+	text-shadow: black;
+}
+/**To display left panel tile Header   **/
+.smsLPTitle {
+	background-color: #D1D3D9;
+	BORDER-RIGHT: 1px solid;
+	BORDER-BOTTOM: 1px solid;
+	BORDER-TOP: 0px;
+	color: #00000;
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 18px;
+	text-align: left;
+	text-transform: capitalize;
+	text-shadow: black;
+}
+/**To display left panel subtitle Header   **/
+.smsLPSubTitle {
+	color: #00000;
+	font-family: Arial;
+	font-size: 13px;
+	text-align: left;
+	font-weight: bold;
+	text-transform: capitalize;
+
+}
+/**To display left panel hr   **/
+.smshr{
+color: white;
+border: thin;
+background: white;
+border-color: white;
+
+}
+.smserror{
+font-size: 13px;
+font-family: Arial;
+color: #FF0000;
+}
+
+/**To display left panel under   subtitle Header   **/
+.smsLPSubTR {
+	background-color: #E1E1E1;
+	color: #00000;
+	font-family: Arial;
+	font-size: 14px;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+/** scroll vertical div**/
+.divscroll {
+	height: 300px;
+	overflow-x: none;
+	overflow-y: scroll
+}
+
+/** common css **/
+/*anchor css color **/
+a:link {
+	color: blue;
+	text-decoration: none;
+}  /* unvisited link */
+a:visited {
+	color: blue;;
+	text-decoration: none;
+}  /* visited link */
+a:hover {
+	color: blue;
+	text-decoration: none;
+}  /* mouse over link */
+a:active {
+	color: blue;;
+	text-decoration: none;
+}
+.smstdtick{
+background-image:url(/ShiftManagement/style/approve.gif);
+}
+
+.testhover {
+	color: blue;
+	text-decoration: none;
+	page-break-after: auto;
+	font-family: monospace;
+	cursor: crosshair;
+	page-break-before: auto;
+	font-size: 10pt
+} 
+
+/*
+.smsdynaColorTR1 {
+	BACKGROUND-COLOR: #fbfaf6;
+}
+
+.smsdynaColorTR2 {
+	BACKGROUND-COLOR: #eeeeee;
+}
+
+.smsmouseout {
+	BACKGROUND-COLOR: #d8e4f8;
+	CURSOR: pointer;
+}
+
+.smsmouseover {
+	BACKGROUND-COLOR: #fbfaf6;
+	CURSOR: pointer;
+}*/
+
+/**To display table Rows   **/
+.smstdinnerRow {
+	font: 14px Arial;
+	background-color: #FFFFF;
+	border-right: 1px solid;
+	border-bottom: 1px solid;
+	border-top: 1px solid;
+	border-left: 1px solid;
+	border: 1px solid #463E41;
+	word-wrap: break-word;
+}
+
+.smstdtxtRow {
+	 border: none;
+	 background:transparent;
+ }
+ 
+ .smstdtxtBtnRow {
+	 border: none;
+	 background:transparent;
+	 color: blue;
+ }
+ 
+/**To display table Rows additional rows**/
+.smstdAddRow {
+	font: 14px Arial;
+	background-color: #FFFFF;
+	border-right: none;
+	border-bottom: 1px solid;
+	border-top: none;
+	border-left: 1px solid;
+	border: 1px solid #463E41;
+	word-wrap: break-word;
+}
+
+/**To display table Rows   **/
+.smstdcentRow {
+	font: 14px Arial;
+	background-color: #FFFFF;
+	border-right: 1px solid;
+	border-bottom: 1px solid;
+	border-top: 1px solid;
+	border-left: 1px solid;
+	border: 1px solid #463E41;
+	word-wrap: break-word;
+	text-align: center;
+}
