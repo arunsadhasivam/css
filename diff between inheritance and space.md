@@ -8,7 +8,9 @@
   color:blue;
 }
 
-#table_container>tableinner tr{
+##see space applies to all childrens
+## > aplies only to immediate child 
+#table_container tr>td>.tableinner tr{
   color:black;
 }
 
@@ -35,7 +37,7 @@
    <td> 
    
     <table class="tableinner">  
-      <tr><td> inner table</td></tr>
+      <tr><td> inner table</td></tr>#########black
    
     </table>
    </td>
@@ -45,7 +47,7 @@
 
 <table  class="tableouter"> 
   <tr>
-    <td>outer table</td>
+    <td>outer table</td> ####green
   </tr>
 
 </table>
