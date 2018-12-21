@@ -17,32 +17,33 @@ since above is too huge to mention all hierarchy so inheritance with space is be
 no need to mention all things
 like below.
 
-ul div.text1
+    ul div.text1
 
 works
 =====
 
-ul div.text1 {
-    background-color: red;
-    font-weight: #000;
-}
+    ul div.text1 {
+        background-color: red;
+        font-weight: #000;
+    }
 
 works
 =====
 
-ul.main div.text1 {
-    background-color: red;
-    font-weight: #000;
-}
+    ul.main div.text1 {
+        background-color: red;
+        font-weight: #000;
+    }
 
 not works
 =========
 
 since main class name is wrong.
-ul.main1 div.text1 {
-    background-color: red;
-    font-weight: #000;
-}
+
+    ul.main1 div.text1 {
+        background-color: red;
+        font-weight: #000;
+    }
 
 mix of inheritance types(>) and (.)
 =========================================
@@ -50,19 +51,20 @@ mix of inheritance types(>) and (.)
 works:
 ======
 
-ul>li>div.text1 {
-    background-color: red;
-    font-weight: #000;
-}
+    ul>li>div.text1 {
+        background-color: red;
+        font-weight: #000;
+    }
 
 
 wont works
 ============
 
 since missing li in hierarchy 
-ul>div.text1 {
-    background-color: red;
-    font-weight: #000;
-}
+
+    ul>div.text1 {
+        background-color: red;
+        font-weight: #000;
+    }
 
 
